@@ -10,7 +10,14 @@ body {
     background-image: url("../images/dynamic-style.png");
 }
 
+#root {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0px;
+    background-image: url("../images/dynamic-style.png");
+}
+
 .allContent {
     flex: 1 0 auto;
 }
-

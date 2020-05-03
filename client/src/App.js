@@ -9,12 +9,11 @@ import { Footer } from "./components/Footer";
 import "./assets/css/app.css";
 
 function App() {
+
   return (
     <Router>
       <div className="allContent">
-        <div className="bg-white">
-          <Nav />
-        </div>
+        <Nav />
         <Switch>
           <Route exact path="/" component={About} />
           <Route exact path="/about" component={About} />
@@ -22,8 +21,8 @@ function App() {
           <Route exact path="/contact" component={Contact} />
           <Route component={NoMatch} />
         </Switch>
-        <Footer />
       </div>
+    <Footer />
     </Router>
   );
 }

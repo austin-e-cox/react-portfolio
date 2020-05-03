@@ -1,8 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
+import { Link } from "react-router-dom"; 
 import "./style.css";
 import "./links.css"
 
+
 function Nav() {
+  const [activePage, setActivePage] = useState("/about");
 
   return (
     <div className="bg-white">
@@ -13,16 +16,16 @@ function Nav() {
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ml-auto justify-content-end">
-            <li className="nav-item active">
-              <a className="nav-link" href="/about">About</a>
+            <li className="nav-item">
+              <Link className={(activePage==="/about") ?  "nav-link disabled" : "nav-link" } to="/about" onClick={() => setActivePage("/about")}>About</Link>
             </li>
             <div className="divider"></div>
             <li className="nav-item">
-              <a className="nav-link" href="/portfolio">Portfolio</a>
+              <Link className={(activePage==="/portfolio") ?  "nav-link disabled" : "nav-link" } to="/portfolio" onClick={() => setActivePage("/portfolio")}>Portfolio</Link>
             </li>
             <div className="divider"></div>
             <li className="nav-item">
-              <a className="nav-link" href="/contact">Contact</a>
+              <Link className={(activePage==="/contact") ?  "nav-link disabled" : "nav-link" }  to="/contact" onClick={() => setActivePage("/contact")}>Contact</Link>
             </li>
           </ul>
         </div>
