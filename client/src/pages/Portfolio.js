@@ -1,11 +1,14 @@
 import React from "react";
 import { Col, Row } from "../components/Grid";
+import "../assets/css/portfolio.css";
+import "../assets/css/common.css";
+
 
 const Portfolio = props => {
   
   return (
     <div className="content">
-      <Row>
+      <Row className="tac">
         <h1 className="headers pad-20-l">Portfolio</h1>
       </Row>
       <hr id="sep" />
@@ -39,7 +42,7 @@ const Portfolio = props => {
       <div className="dash-line"></div>
       
       <Row className="tac">
-        <h2 className="headers md-12">Weeklies</h2>
+        <h2 className="headers col-md-12">Weeklies</h2>
       </Row>
 
       <Row className="align-items-center">

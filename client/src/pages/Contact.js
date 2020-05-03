@@ -1,5 +1,8 @@
 import React from "react";
 import { Row } from "../components/Grid";
+import "../assets/css/contact.css";
+import "../assets/css/common.css";
+
 
 const Contact = props => {
   

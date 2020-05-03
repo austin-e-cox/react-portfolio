@@ -6,7 +6,7 @@ import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
 import NoMatch from "./pages/NoMatch";
 import { Footer } from "./components/Footer";
-import './App.css';
+import "./app.css";
 
 function App() {
   return (

@@ -1,0 +1,10 @@
+.footer {
+  flex-shrink: 0;
+  padding: 20px;
+  background-color: #666666;
+  border-top: 8px solid #4aaaa5;
+  text-align: center;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  color: #ffffff;
+  font-size: 12px;
+}

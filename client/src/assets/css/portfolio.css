@@ -1,0 +1,59 @@
+/*---------------------------------------------------------------------------*/
+/* Portfolio */
+/*---------------------------------------------------------------------------*/
+
+.dash-line{
+  border-bottom: 1px dashed black;
+  margin-bottom: 20px;
+}
+
+
+.tile-imgContainer{
+  overflow: hidden;
+  max-height: 200px;
+  max-width: 300px;
+  margin: auto;
+}
+
+.croppedImage{
+  max-height: 100%;
+  max-width: 300px;
+  /*padding: 20px;*/
+  object-fit: cover;
+  margin: auto
+}
+
+.imageLabel{
+  position: relative;
+  bottom: 75px;
+  background-color: #4aaaa573;
+  /*margin-left: 20px;*/
+  width: 300px;
+  text-align: center;
+  padding: 10px 0px 10px 0px;
+  color: #ffffff;
+  margin: auto;
+}
+
+.imgLinks{
+  position: relative;
+  bottom: 40px;
+  text-align: center;
+  color: black;
+}
+
+.imgLinks a:link {
+  color: darkgray;
+}
+
+.imgLinks a:visited {
+  color: darkgreen;
+}
+
+.imgLinks a:hover {
+  color: hotpink;
+}
+
+.imgLinks a:active {
+  color: blue;
+}

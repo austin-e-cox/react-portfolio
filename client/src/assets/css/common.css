@@ -1,0 +1,41 @@
+/*---------------------------------------------------------------------------*/
+/* Content */
+/*---------------------------------------------------------------------------*/
+
+.content {
+  max-width: 920px;
+  margin: auto;
+  margin-top: 20px;
+  background-color: #ffffff;
+  border: solid 1px #cccccc;
+  padding: 20px;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.contentImage{
+  margin: 20px 30px 20px 0;
+  max-width: 100%;
+  max-height: auto;
+}
+
+.contentText{
+  flex: 1 1 auto;
+  line-height: 1.5;
+}
+
+.headers {
+  color: #4aaaa5;
+  font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+.pad-20{
+  padding: 20px;
+}
+
+.pad-20-l{
+  padding-left: 20px;
+}
+
+.tac {
+  text-align: center;
+}

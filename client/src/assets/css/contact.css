@@ -1,0 +1,21 @@
+/*---------------------------------------------------------------------------*/
+/* Contact */
+/*---------------------------------------------------------------------------*/
+
+#sep {
+  color: #777777;
+  background: #cccccc;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+#submitForm{
+  background-color: #4aaaa5;
+  color:#ffffff;
+  font-family: 'Georgia', Times, 'Times New Roman', serif;
+  width: 100px;
+  padding: 8px;
+  text-align: center;
+  border: none;
+}
