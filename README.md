@@ -1,5 +1,5 @@
 # react-directory
-This project utilizes React to display a table of employee data.
+This project utilizes React to display a web development portfolio.
 
 ## Functionality
 
