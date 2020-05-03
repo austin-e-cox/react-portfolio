@@ -10,7 +10,7 @@ Open public/index.html in your browser.
 Repo: https://github.com/austin-e-cox/react-portfolio
 
 ## Deployed App
-App: 
+App: https://murmuring-cove-02214.herokuapp.com/
 
 ## Preview:
-![React Profile Preview](/profile-preview.png?raw=true "React Profile Preview")
+![React Profile Preview](/portfolio-preview.png?raw=true "React Portfolio Preview")
