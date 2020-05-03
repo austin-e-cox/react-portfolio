@@ -4,7 +4,7 @@ import "./style.css";
 import "./links.css"
 
 
-function Nav() {
+function Header() {
   const [activePage, setActivePage] = useState("/about");
 
   return (
@@ -34,4 +34,4 @@ function Nav() {
   );
 }
 
-export default Nav;
+export default Header;

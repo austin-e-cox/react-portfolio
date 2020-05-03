@@ -1,100 +1,84 @@
 import React from "react";
-import { Col, Row } from "../components/Grid";
+import { Row } from "../components/Grid";
+import Project from "../components/Project"
 import "../assets/css/portfolio.css";
 import "../assets/css/common.css";
 
 
-const Portfolio = props => {
+const projects = [
+  {
+    imgLink:"assets/images/urban_forage_preview.png",
+    alt:"urban forage",
+    name:"Urban Forage",
+    deployedLink:"https://polar-cliffs-12845.herokuapp.com/",
+    repoLink:"https://github.com/sarahm16/urban-forage"
+  },
+  {
+    imgLink:"assets/images/Project1-Suitcase.png",
+    alt:"project suitcase",
+    name:"Project Suitcase",
+    deployedLink:"https://caleb-brochu.github.io/Project-1/",
+    repoLink:"https://github.com/caleb-brochu/Project-1"
+  },
+  {
+    imgLink:"assets/images/passGenPreview.png",
+    alt:"password generator",
+    name:"Password Generator",
+    deployedLink:"https://austin-e-cox.github.io/PasswordGenerator/",
+    repoLink:"https://github.com/austin-e-cox/PasswordGenerator"
+  },
+  {
+    imgLink:"assets/images/jsQuizPreview.png",
+    alt:"javascript quiz",
+    name:"JS Quiz",
+    deployedLink:"https://austin-e-cox.github.io/jsQuiz/",
+    repoLink:"https://github.com/austin-e-cox/jsQuiz"
+  },
+  {
+    imgLink:"assets/images/dayPlannerPreview.png",
+    alt:"day planner",
+    name:"Day Planner",
+    deployedLink:"https://austin-e-cox.github.io/Day-Planner/",
+    repoLink:"https://github.com/austin-e-cox/Day-Planner"
+  },
+  {
+    imgLink:"assets/images/burger_preview.png",
+    alt:"burger database",
+    name:"Burger MVC",
+    deployedLink:"https://still-dawn-64377.herokuapp.com/",
+    repoLink:"https://github.com/austin-e-cox/burger"
+  }
+]
+
+const Portfolio = () => {
   
   return (
     <div className="content">
-      <Row className="tac">
+      <Row c="tac">
         <h1 className="headers pad-20-l">Portfolio</h1>
       </Row>
       <hr id="sep" />
-      <Row className="tac">
+      <Row c="tac">
         <h3 className="headers col-md-12">Projects</h3>
       </Row>
-      <Row className='align-items-center'>
-        <Col size="md-6">
-          <div className="tile-imgContainer">
-            <img src="assets/images/urban_forage_preview.png" alt="urban forage" className="croppedImage" />
-          </div>
-          <div className="imageLabel">Urban Forage</div>
-          <div className="imgLinks">
-            <a href="https://polar-cliffs-12845.herokuapp.com/">Deployed App</a>
-            <br />
-            <a href="https://github.com/sarahm16/urban-forage">Repository</a>
-          </div>
-        </Col>
-        <Col size="md-6">
-          <div className="tile-imgContainer">
-            <img src="assets/images/Project1-Suitcase.png" alt="project suitcase" className="croppedImage" />
-          </div>
-          <div className="imageLabel">Project Suitcase</div>
-          <div className="imgLinks">
-            <a href="https://caleb-brochu.github.io/Project-1/">Deployed App</a>
-            <br />
-            <a href="https://github.com/caleb-brochu/Project-1">Repository</a>
-          </div>
-        </Col>
+      <Row c='align-items-center'>
+        <Project project={projects[0]} />
+        <Project project={projects[1]} />
       </Row>
       <div className="dash-line"></div>
       
-      <Row className="tac">
+      <Row c="tac">
         <h2 className="headers col-md-12">Weeklies</h2>
       </Row>
 
-      <Row className="align-items-center">
-        <Col size="md-6">
-          <div className="tile-imgContainer">
-            <img src="assets/images/passGenPreview.png" alt="password generator" className="croppedImage" />
-          </div>
-          <div className="imageLabel">Password Generator</div>
-          <div className="imgLinks">
-            <a href="https://austin-e-cox.github.io/PasswordGenerator/">Deployed App</a>
-            <br />
-            <a href="https://github.com/austin-e-cox/PasswordGenerator">Repository</a>
-          </div>
-        </Col>
-
-        <Col size="md-6">
-          <div className="tile-imgContainer">
-            <img src="assets/images/jsQuizPreview.png" alt="javascript quiz" className="croppedImage" />
-          </div>
-          <div className="imageLabel">JS Quiz</div>
-          <div className="imgLinks">
-            <a href="https://austin-e-cox.github.io/jsQuiz/">Deployed App</a>
-            <br />
-            <a href="https://github.com/austin-e-cox/jsQuiz">Repository</a>
-          </div>
-        </Col>
+      <Row c="align-items-center">
+        <Project project={projects[2]} />
+        <Project project={projects[3]} />
       </Row>
       
-      <Row className='align-items-center'>
-        <Col size="md-6">
-          <div className="tile-imgContainer">
-            <img src="assets/images/dayPlannerPreview.png" alt="day planner" className="croppedImage" />
-          </div>
-          <div className="imageLabel">Day Planner</div>
-          <div className="imgLinks">
-            <a href="https://austin-e-cox.github.io/Day-Planner/">Deployed App</a>
-            <br />
-            <a href="https://github.com/austin-e-cox/Day-Planner">Repository</a>
-          </div>
-        </Col>
-        <Col size="md-6">
-          <div className="tile-imgContainer">
-            <img src="assets/images/burger_preview.png" alt="burger database" className="croppedImage" />
-          </div>
-          <div className="imageLabel">Burger MVC</div>
-          <div className="imgLinks">
-            <a href="https://still-dawn-64377.herokuapp.com/">Deployed App</a>
-            <br />
-            <a href="https://github.com/austin-e-cox/burger">Repository</a>
-          </div>
-        </Col>
-
+      <Row c='align-items-center'>
+        <Project project={projects[4]} />
+        <Project project={projects[5]} />
       </Row>
     </div>
   )

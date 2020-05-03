@@ -10,11 +10,11 @@ const About = props => {
         <h1 className="headers pad-20-l">About Me</h1>
       </Row>
       <hr id="sep" />
-      <Row className="contentData">
+      <Row>
         <Col size="md-3">
           <img src="../assets/images/profile.jpg" alt="profile" className="contentImage" />
         </Col>
-        <Col size="md-9" className="contentText">
+        <Col size="md-9" c="contentText">
           <p>My name is Austin Cox. I am an avid programmer and work too late sometimes. I have lengthy experience in Python, some experience in C++, and Fortran coding languages. I am curently extending my knowledge to HTML, CSS, Javascript and others.</p>
           <p>I very much enjoy coding and sometimes get stuck on my current task and forget about other things, but it's okay because I am having fun and learning.</p>
           <p>Besides coding, I also enjoy playing Australian Rules Football, and am Vice-President of the <a href="http://www.seattlegrizzlies.com/">local USAFL club.</a></p>
