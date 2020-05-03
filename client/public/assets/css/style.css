@@ -15,63 +15,6 @@ body {
 }
 
 
-
-/*---------------------------------------------------------------------------*/
-/* Header */
-/*---------------------------------------------------------------------------*/
-
-.headerBg {
-    margin: auto;
-    background-color: #ffffff;
-    border-bottom: 1px solid #cccccc;
-}
-
-.headerData {
-    max-width: 960px;
-    margin: auto;
-    background-color: #ffffff;
-}
-
-.zeroMargin{
-    margin: 0px;
-}
-
-
-/*---------------------------------------------------------------------------*/
-/* Nav */
-/*---------------------------------------------------------------------------*/
-
-.nameDiv {
-    background-color: #4aaaa5;
-    color:#ffffff;
-    font-size: 24px;
-    font-family: 'Georgia', Times, 'Times New Roman', serif;
-    padding: 20px;
-    width: 200px;
-    text-align: center;
-}
-
-.nav {
-    margin: auto 20px auto auto;
-    background-color: #ffffff;
-    border-color: #cccccc;
-    font-family: 'Georgia', Times, 'Times New Roman', serif;
-    color: #777777;
-    justify-content: flex-end;
-}
-
-.divider {
-    width: 1px;
-    margin: 12px 6px 12px 6px;
-    background: #cccccc;
-    vertical-align: middle;
-}
-
-.curNav {
-    background-color: #4aaaa5;
-}
-
-
 /*---------------------------------------------------------------------------*/
 /* Links */
 /*---------------------------------------------------------------------------*/
@@ -212,8 +155,6 @@ a:active {
     border-bottom: 1px dashed black;
     margin-bottom: 20px;
 }
-
-
 
 
 .pad-20{
